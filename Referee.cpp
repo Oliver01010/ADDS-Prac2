@@ -21,7 +21,7 @@ char Referee::refGame(Human p1, Computer p2){
         (p1Choice == 'P' && p2Choice == 'P') ||
         (p1Choice == 'S' && p2Choice == 'S')) {
             // Both chose the same so it is a draw return 'D'
-            return 'D';
+            return 'T';
     } else
     if ((p1Choice == 'R' && p2Choice == 'P') || 
         (p1Choice == 'P' && p2Choice == 'S') ||
